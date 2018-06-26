@@ -1,12 +1,9 @@
-#include <errno.h>
-#include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <dlfcn.h>
 #include <string.h>
 #include <unistd.h>
 #include <sys/stat.h>
-#include <sys/types.h>
 
 #define LOG_TAG "macaddrsetup"
 #include <cutils/log.h>
